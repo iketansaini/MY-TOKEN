@@ -9,7 +9,6 @@ contract MyToken {
     mapping(address => uint256) public balances;
     // Mint function
     function mint(address to, uint256 amount) public {
-        
         totalSupply += amount;
         balances[to] += amount;
     }
