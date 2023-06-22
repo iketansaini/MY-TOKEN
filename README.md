@@ -20,10 +20,12 @@ MyToken provides a basic token functionality, allowing users to mint and burn to
 To use or deploy this token contract, you need to have a Solidity development environment set up. You can compile and deploy the contract using tools like Remix, Truffle, or Hardhat.
 
 ## Deployment
-
-1. Deploy the `MyToken` contract to a compatible Ethereum network or a local blockchain.
-2. After deployment, the contract will have an initial total supply of 0.
-
+To use this contract, you will need to deploy it to a blockchain. Once it is deployed, you can interact with it using the following functions:
+name(): Returns the name of the token.
+symbol(): Returns the symbol of the token.
+totalSupply(): Returns the total supply of tokens.
+balanceOf(address): Returns the number of tokens owned by an address.
+transfer(address, uint256): Transfers tokens from one address to another.
 ## Usage
 
 The contract exposes the following functions:
@@ -36,15 +38,5 @@ Mints new tokens and assigns them to the specified `to` address.
 
 Burns tokens from the specified `from` address.
 
-## Development
-
-To contribute to this project or make changes, follow the steps below:
-
-1. Clone the repository: `git clone https://github.com/iketansaini/MyToken.git`
-2. Make the desired changes.
-3. Test the contract thoroughly.
-4. Commit your changes: `git commit -am 'Add some feature'`
-5. Push to the branch: `git push origin your-branch`
-6. Create a new Pull Request.
 
 
