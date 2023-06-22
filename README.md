@@ -21,11 +21,12 @@ To use or deploy this token contract, you need to have a Solidity development en
 
 ## Deployment
 To use this contract, you will need to deploy it to a blockchain. Once it is deployed, you can interact with it using the following functions:
-name(): Returns the name of the token.
-symbol(): Returns the symbol of the token.
-totalSupply(): Returns the total supply of tokens.
-balanceOf(address): Returns the number of tokens owned by an address.
-transfer(address, uint256): Transfers tokens from one address to another.
+
+`name()`: Returns the name of the token.
+`symbol()`: Returns the symbol of the token.
+`totalSupply()`: Returns the total supply of tokens.
+`balanceOf(address)`: Returns the number of tokens owned by an address.
+`transfer(address, uint256)`: Transfers tokens from one address to another.
 ## Usage
 
 The contract exposes the following functions:
