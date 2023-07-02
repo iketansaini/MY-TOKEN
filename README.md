@@ -39,5 +39,6 @@ Mints new tokens and assigns them to the specified `to` address.
 
 Burns tokens from the specified `from` address.
 
+## License
 
-
+This project is licensed under the [MIT License](LICENSE).
